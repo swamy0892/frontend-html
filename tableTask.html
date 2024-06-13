@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Four Tables Layout</title>
+<style>
+  .table-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 200px;
+  }
+  th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+  }
+</style>
+</head>
+<body>
+
+<h2>Four Tables Layout</h2>
+
+<div class="table-container">
+  <table>
+    <table>
+        <caption>Table 1</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>30</td>
+        </tr>
+        <tr>
+           <td>Jane</td>
+           <td>25</td>
+        </tr>
+    </table>
+  
+    <table>
+        <caption>Table 2</caption>
+        <tr>
+            <th>City</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>London</td>
+            <td>UK</td>
+        </tr>
+    </table>
+  
+    <table>
+        <caption>Table 3</caption>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>$500</td>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>$1000</td>
+        </tr>
+    </table>
+  
+    <table>
+        <caption>Table 4</caption>
+        <tr>
+            <th>Month</th>
+            <th>Sales</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$1000</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$1200</td>
+        </tr>
+    </table>
+ </table>
+</div>
+
+</body>
+</html>
